@@ -128,7 +128,7 @@ const FormU = () => {
                 name="Zürich"
                 value={formData.Zürich}
                 onChange={handleChange}
-                required
+               
               />
               <span className="ml-2">Zürich</span>
             </label>
@@ -139,7 +139,7 @@ const FormU = () => {
                 name="Genève"
                 value={formData.Genève}
                 onChange={handleChange}
-                required
+                
               />
               <span className="ml-2">Genève</span>
             </label>
@@ -150,7 +150,7 @@ const FormU = () => {
                 name="Lugano"
                 value={formData.Lugano}
                 onChange={handleChange}
-                required
+              
               />
               <span className="ml-2">Lugano</span>
             </label>
@@ -280,7 +280,7 @@ const FormU = () => {
                 name="Irrevocable"
                 value={formData.Irrevocable}
                 onChange={handleChange}
-                required
+               
               />
               <span className="ml-2">Irrevocable</span>
             </label>
@@ -291,7 +291,7 @@ const FormU = () => {
                 name="Irrevocable_and_transferable"
                 value={formData.Irrevocable_and_transferable}
                 onChange={handleChange}
-                required
+              
               />
               <span className="ml-2">Irrevocable and transferable</span>
             </label>
@@ -302,7 +302,7 @@ const FormU = () => {
                 name="Irrevocable_Standby"
                 value={formData.Irrevocable_Standby}
                 onChange={handleChange}
-                required
+             
               />
               <span className="ml-2">Irrevocable Standby</span>
             </label>
@@ -321,7 +321,7 @@ const FormU = () => {
                 name="Credit_Suisse"
                 value={formData.Credit_Suisse}
                 onChange={handleChange}
-                required
+               
               />
               <span className="ml-2">Credit Suisse</span>
             </label>
@@ -332,7 +332,7 @@ const FormU = () => {
                 name="Correspondent_Bank_checkbox"
                 value={formData.Correspondent_Bank_checkbox}
                 onChange={handleChange}
-                required
+               
               />
               <span className="ml-2">Correspondent Bank</span>
             </label>
@@ -343,7 +343,7 @@ const FormU = () => {
                 name="Any_Bank"
                 value={formData.Any_Bank}
                 onChange={handleChange}
-                required
+             
               />
               <span className="ml-2">Any Bank
               </span>
@@ -355,7 +355,7 @@ const FormU = () => {
                 name="Any_Bank_in"
                 value={formData.Any_Bank_in}
                 onChange={handleChange}
-                required
+              
               />
               <span className="ml-2">Any Bank in:
               </span>
@@ -420,7 +420,7 @@ const FormU = () => {
                 name="Credit_Amount_specification"
                 value={formData.Credit_Amount_specification}
                 onChange={handleChange}
-                required
+               
               />
               <span className="ml-2">Exactly</span>
             </label>
@@ -432,7 +432,7 @@ const FormU = () => {
                 name="Maximum"
                 value={formData.Maximum}
                 onChange={handleChange}
-                required
+              
               />
               <span className="ml-2">Tolerance of + /- %</span>
             </label>
@@ -443,7 +443,7 @@ const FormU = () => {
                 name="Tolerance"
                 value={formData.Tolerance}
                 onChange={handleChange}
-                required
+             
               />
               <span className="ml-2">About (+/- 10 %) </span>
             </label>
@@ -454,7 +454,7 @@ const FormU = () => {
                 name="specify"
                 value={formData.specify}
                 onChange={handleChange}
-                required
+              
               />
               <span className="ml-2">specify:</span>
             </label>
@@ -475,7 +475,7 @@ const FormU = () => {
                 name="Available_Credit_Suisse"
                 value={formData.Available_Credit_Suisse}
                 onChange={handleChange}
-                required
+               
               />
               <span className="ml-2">Credit Suisse</span>
             </label>
@@ -486,7 +486,7 @@ const FormU = () => {
                 name="Available_Correspondent_Bank"
                 value="Available_Correspondent_Bank"
                 onChange={handleChange}
-                required
+              
               />
               <span className="ml-2">Correspondent Bank</span>
             </label>
@@ -497,7 +497,7 @@ const FormU = () => {
                 name="Available_Any_Bank"
                 value={formData.Available_Any_Bank}
                 onChange={handleChange}
-                required
+                
               />
               <span className="ml-2">Any Bank</span>
             </label>
@@ -508,7 +508,7 @@ const FormU = () => {
                 name="Available_Any_Bank_in"
                 value={formData.Available_Any_Bank_in}
                 onChange={handleChange}
-                required
+              
               />
               <span className="ml-2">Any Bank in:</span>
             </label>
@@ -519,7 +519,7 @@ const FormU = () => {
                 name="Available_specify"
                 value={formData.Available_specify}
                 onChange={handleChange}
-                required
+           
               />
               <span className="ml-2">specify:</span>
             </label>
@@ -538,7 +538,7 @@ const FormU = () => {
                 name="Payment_at_sight"
                 value={formData.Payment_at_sight}
                 onChange={handleChange}
-                required
+             
               />
               <span className="ml-2">Payment at sight</span>
             </label>
@@ -549,7 +549,7 @@ const FormU = () => {
                 name="Negotiation"
                 value={formData.Negotiation}
                 onChange={handleChange}
-                required
+            
               />
               <span className="ml-2">Negotiation (specify below)</span>
             </label>
@@ -560,7 +560,7 @@ const FormU = () => {
                 name="Deferred_payment"
                 value={formData.Deferred_payment}
                 onChange={handleChange}
-                required
+               
               />
               <span className="ml-2">Deferred payment (specify below)</span>
             </label>
@@ -582,7 +582,7 @@ const FormU = () => {
                 name="Acceptance"
                 value={formData.Acceptance}
                 onChange={handleChange}
-                required
+               
               />
               <span className="ml-2">Acceptance (specify below)</span>
             </label>
@@ -593,7 +593,7 @@ const FormU = () => {
                 name="At_days_after"
                 value={formData.At_days_after}
                 onChange={handleChange}
-                required
+           
               />
               <span className="ml-2">At days after</span>
             </label>
@@ -609,7 +609,7 @@ const FormU = () => {
                 name="radio"
                 value={formData.Date_of_shipment}
                 onChange={handleChange}
-                required
+                
               />
               <span className="ml-2">Date of shipment</span>
             </label>
@@ -620,7 +620,7 @@ const FormU = () => {
                 name="radio"
                 value={formData.Date_of_Invoice}
                 onChange={handleChange}
-                required
+                
               />
               <span className="ml-2">Date of Invoice</span>
             </label>
@@ -631,7 +631,7 @@ const FormU = () => {
                 name="radio"
                 value={formData.Sight}
                 onChange={handleChange}
-                required
+              
               />
               <span className="ml-2">Sight</span>
             </label>
@@ -642,7 +642,7 @@ const FormU = () => {
                 name="radio"
                 value={formData.define}
                 onChange={handleChange}
-                required
+              
               />
               <span className="ml-2">(define)</span>
             </label>
